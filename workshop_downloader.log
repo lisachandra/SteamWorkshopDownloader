@@ -1,0 +1,28 @@
+2026-07-01 21:11:39,452 - DEBUG - Using proactor: IocpProactor
+2026-07-01 21:11:40,250 - DEBUG - install_mod: Before check_mod_exists - mod_title='We Were Here: RL Edition | A Co-op Puzzle Game', mod_id='2442358440'
+2026-07-01 21:11:40,251 - DEBUG - check_mod_exists: mod_title='We Were Here: RL Edition | A Co-op Puzzle Game', mod_id='2442358440'
+2026-07-01 21:11:40,251 - DEBUG - check_mod_exists: Checking cleaned path: D:\Github\Other\SteamWorkshopDownloader\games\RocketLeague\mods\WeWereHereRLEditionACo-opPuzzl, exists=False
+2026-07-01 21:11:40,251 - DEBUG - check_mod_exists: Checking ID path: D:\Github\Other\SteamWorkshopDownloader\games\RocketLeague\mods\2442358440, exists=False
+2026-07-01 21:11:40,251 - DEBUG - check_mod_exists: Mod exists result: False
+2026-07-01 21:11:40,251 - INFO - Downloading mod [We Were Here: RL Edition | A Co-op Puzzle Game]...
+2026-07-01 21:11:40,252 - DEBUG - SteamCMD stdout for mod 2442358440:
+D:\Github\Other\SteamWorkshopDownloader\main\SteamCMD\steamcmd.exe +force_install_dir D:\Github\Other\SteamWorkshopDownloader\temp\2442358440 +login anonymous +workshop_download_item 252950 2442358440 +quit
+2026-07-01 21:11:50,480 - DEBUG - SteamCMD stdout for mod 2442358440:
+Steam Console Client (c) Valve Corporation - version 1782532820
+-- type 'quit' to exit --
+Loading Steam API...OK
+
+Connecting anonymously to Steam Public...OK
+Waiting for client config...OK
+Waiting for user info...OK
+Downloading item 2442358440 ...
+ERROR! Download item 2442358440 failed (Failure).Unloading Steam API...OK
+Redirecting stderr to 'D:\Github\Other\SteamWorkshopDownloader\main\SteamCMD\logs\stderr.txt'
+Logging directory: 'D:\Github\Other\SteamWorkshopDownloader\main\SteamCMD/logs'
+[  0%] Checking for available updates...
+[----] Verifying installation...
+
+2026-07-01 21:11:50,482 - DEBUG - SteamCMD stderr for mod 2442358440:
+
+2026-07-01 21:11:50,482 - INFO - Mod We Were Here: RL Edition | A Co-op Puzzle Game download completed.
+2026-07-01 21:11:50,482 - ERROR - Error: Mod folder 2442358440 not found after SteamCMD download in D:\Github\Other\SteamWorkshopDownloader\temp\2442358440\steamapps\workshop\content\252950\2442358440

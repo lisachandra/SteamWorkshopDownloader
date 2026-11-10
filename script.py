@@ -115,7 +115,7 @@ TEXTS = {
 "install_mod_process_download_completed": "Mod {mod_title} download completed.",
 "install_mod_process_mod_installed": "Mod {mod_title} installed.",
 "install_mod_process_download_error": "Error downloading mod {mod_id}: {error}",
-"general_separator": "─" * 47,
+"general_separator": "-" * 47,
 "general_cls": 'cls' if os.name == 'nt' else 'clear',
 "steamcmd_install_success": "SteamCMD installed successfully.",
 "steamcmd_downloading_from": "Downloading SteamCMD from: {STEAMCMD_DOWNLOAD_URL}",
